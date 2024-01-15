@@ -52,6 +52,7 @@ backends:
     openstack:
         plan: staging-cpu2-ram4-disk20
         halt-timeout: 2h
+        groups: [default]
         systems:
             - ubuntu-20.04-64:
                 image: auto-sync/ubuntu-focal-20.04-amd64-server-20231129-disk1.img
